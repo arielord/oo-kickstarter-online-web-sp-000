@@ -1,7 +1,7 @@
 class Project
-  attr_accessor
+  attr_accessor :title
   
-  def initialize
-    
+  def initialize(title)
+    self.title = title
   end
 end
