@@ -4,4 +4,8 @@ class Backer
   def initialize(name)
     self.name = name
   end
+  
+  def back_project
+    
+  end
 end
